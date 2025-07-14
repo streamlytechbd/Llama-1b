@@ -1,0 +1,3 @@
+settings.gradle
+
+rootProject.name = "Llama-1b"

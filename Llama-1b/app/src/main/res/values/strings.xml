@@ -1,0 +1,7 @@
+<string name="app_name">Llama-1b</string>
+<string name="welcome_message">স্বাগতম Llama-1b অ্যাপে!</string>
+<string name="splash_message">লোড হচ্ছে...</string>
+<string name="main_activity_title">Llama-1b প্রধান কার্যকলাপ</string>
+<string name="chat_message_sent">বার্তা পাঠানো হয়েছে</string>
+<string name="chat_message_received">বার্তা প্রাপ্ত হয়েছে</string>
+<string name="error_message">একটি ত্রুটি ঘটেছে, দয়া করে আবার চেষ্টা করুন</string>
