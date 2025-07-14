@@ -1,13 +1,15 @@
 package com.llama1b;
 
-import android.content.Context;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
 
 public class LlamaRunner {
-    // Example method to load model from assets
-    public void loadModel(Context context, String modelFileName) {
+    // Example method to load model from storage using file path
+    public void loadModel(String modelFilePath) {
         try {
-            InputStream is = context.getAssets().open(modelFileName);
+            File modelFile = new File(modelFilePath);
+            InputStream is = new FileInputStream(modelFile);
             // TODO: Integrate GGML or JNI for actual Llama 1b inference
             // This is a placeholder for model loading logic
             is.close();
